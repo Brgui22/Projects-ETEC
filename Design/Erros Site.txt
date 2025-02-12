@@ -1,0 +1,52 @@
+Foi encontrado mais de 8 falhas criticas e 8 em falhas medias.
+
+# Falhas graves!
+
+Evitar grandes mudanças no layout
+- 12 trocas no lauout.
+
+Evitar o css não usado
+- Mais de 286 Kib de economia no carregamento.
+
+Reduzir JS em uso desncessario
+- Com 5 Kib de economia.
+
+Disponibilidade de imagens em formatos de ultima geração
+- Economia 649 KiB.
+
+# Falhas medianas:
+
+Os elementos de imagem não têm width e height explícitas
+- Defina uma largura e altura explícitas em elementos de imagem.
+
+Garanta que o texto continue vísivel durante o carregamento.
+- 36 recursos encontrados.
+
+############################################################
+		        Acessibilidade
+############################################################
+
+
+Os botões não têm um nome acessível
+- Quando um botão não tem um nome acessível, os leitores de tela o enunciam como "botão", o que o inutiliza para usuários que dependem desses leitores.
+
+As áreas de toque não têm tamanho ou espaçamento suficiente.
+- Áreas de toque com tamanho e espaçamento suficientes ajudam usuários que talvez tivessem dificuldade em tocar em áreas pequenas.
+
+############################################################
+		     Práticas recomendadas
+############################################################
+
+Erros do navegador foram registrados no console
+- Erros registrados no console indicam problemas não resolvidos. Eles podem ocorrer devido a falhas de solicitação de rede e outras questões relacionadas ao navegado.
+
+
+Mapas de origem ausentes no JavaScript principal grande
+- Os mapas de origem traduzem códigos minificados para o código-fonte original. Isso ajuda os desenvolvedores na depuração durante a produção.
+
+############################################################
+	        	     ESSE
+############################################################
+
+O documento não tem uma metadescrição
+- Metadescrições podem ser incluídas nos resultados da pesquisa para resumir concisamente o conteúdo da página.
