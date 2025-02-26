@@ -1,0 +1,58 @@
+body {
+    background-color: #680e0e;
+    color: white;
+}
+
+h1 {
+    /* Mudar o tamanho da fonte */
+    font-size: 100px;
+    color: rgb(255, 87, 87);
+    /* Muda a cor do texto */
+    background-color: black;
+    /* Centraliza o text */
+    text-align: center; 
+}
+
+h2 {
+    font-size: 80px;
+    color: #ba9f81;
+    margin: 2px;
+    text-align: center;
+}
+
+hr {
+    border-color: #f2cea4 ;
+    background-color: #f2cea4;
+    width: 70%;
+    height: 2px;
+}
+
+h3 {
+    font-size: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #f3dec7;
+    padding: 0;
+    text-align: center;
+}
+
+h4{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    padding: 0;
+    text-align: center;
+    margin: 10px auto 0px auto;
+}
+
+p {
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+img {
+    width: 800px;
+    display: block;
+    margin: auto;
+    border: solid 2px #f2cea4;
+    border-radius: 20px;
+
+}
