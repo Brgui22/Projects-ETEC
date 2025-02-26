@@ -19,5 +19,27 @@ Inicio
    escreval("Escreva o terceiro número:")
    leia(terceiro_num)
 
+   // Verificador do primeiro
+   se (primeiro_num < segundo_num)entao
+      se (primeiro_num < terceiro_num)entao
+         escreval ("o primeiro é menor")
+      fimse
+   fimse
+
+   // Verificador do segundo
+   se (segundo_num < primeiro_num)entao
+      se (segundo_num < terceiro_num)entao
+         escreval ("o segundo é menor")
+      fimse
+   fimse
+
+
+   // Verificador do terceiro
+   se (terceiro_num < primeiro_num)entao
+      se (terceiro_num < segundo_num)entao
+         escreval ("o tericeiro é menor")
+      fimse
+   fimse
+
 
 Fimalgoritmo
