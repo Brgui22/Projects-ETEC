@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(236, 196, 86);
+}
+
+h1  {
+    font-size: 100px;
+    text-align: center;
+    color: beige;
+}
+
+span {
+    border: solid 2px wheat;
+    font-size: 50px;
+}
+
+.formato-1 {
+    color: brown;
+}
+
+#formato-2 {
+    color: aqua;
+}
+
+div {
+    border: solid 2px wheat;
+    font-size: 50px;
+
+}
+
+#formato-3 {
+    background-color: azure;
+}
+
+#formato-4 {
+    background-color: rgb(91, 176, 176);
+}
+
+#formato-5 {
+    background-color: rgb(224, 121, 121);
+}
+
+#formato-6 {
+    background-color: blue;
+    width: 500px;
+    height: 350px;
+
+    margin: 20px auto;
+    border-radius: 30px; 
+    background-image: url(https://i.pinimg.com/originals/f6/5f/15/f65f15f446f36b0ca9173dca13135597.gif);
+    /* background-size: 100% 100% ; */
+}
