@@ -1,0 +1,68 @@
+*{margin: 0;}
+
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    height: 10vh;
+    background-color: #1a1919;
+}
+
+h1 {
+    padding: 1vh;
+    font-size: 50px;
+    color: #ffffff;
+    text-align: start;
+}
+
+
+
+
+main {
+    min-width: 80vh;
+    background-color: #e4e4e6;
+    padding: 30px;
+}
+
+div {
+    border: solid 2.9px #545454;
+    background-color: rgb(238, 238, 238);
+    width: 50vh;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+img {
+    display: block;
+    width: 30vh;
+    height: 30vh;
+    margin: auto;
+    background-color: #f8faf9;
+    border: #545454 solid 1.6px;
+    border-radius: 10px;
+    
+}
+h2, p{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+span {
+    font-size: 30px;
+    color: rgb(24, 24, 24);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+footer{
+    height: 8vh;
+    background-color: #1a1919;
+    color: #e4e4e6;
+}
+
+.direitos {
+
+}
