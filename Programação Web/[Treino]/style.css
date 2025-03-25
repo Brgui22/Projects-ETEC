@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+}
+
+header {
+    background-color: yellowgreen;
+    width: 100vw;
+    height: 10vh;
+
+    & img {
+        width: 8vh;
+        margin: 1vh;
+
+    & li {
+       background-color: antiquewhite;
+    }
+    }
+}
+
+.button {
+    border: solid 2px #FFFF;
+    align-items: center;
+    padding: 1vh;
+    font-size: 20px;
+    width: 180px;
+    border-radius: 1vh;
+
+    & a {
+        color: aliceblue;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    }
+
+    & i {
+        color: #FFFF;
+    }
+}
