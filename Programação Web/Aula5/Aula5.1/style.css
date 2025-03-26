@@ -1,0 +1,122 @@
+/* BODYS */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.menu{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(https://de7i3bh7bgh0d.cloudfront.net/2025/01/07/00/09/26/71ea757d-c3cf-4256-a677-b51e74959837/NAR_The_Complete_Series_LE_Blog_1200x630.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+.naruto {
+    background-image: url(https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/c7be0dd7-85db-42f9-a6e2-7fb3df382352/a600e36d1d6826df041cfbca9989b68c169109dc.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.sakura {
+    background-image: url(https://image.api.playstation.com/vulcan/ap/rnd/202106/0108/5ZMMhrBa2mm3BaZ8q74fDdFk.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.sasuke {
+    background-image: url(https://www.japanfm.fr/wp-content/uploads/2023/08/sasuke-aura-susanoo-techniques-scaled.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #6721b3;
+}
+
+
+
+
+
+/* TODOS */
+
+
+
+div {
+    background-color: rgba(0, 0, 0, 0.733); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    /* position: absolute; */
+    padding: 10px;
+    height: 95vh;
+    border-radius: 20px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+}
+h2 {
+    text-align: center;
+    font-size: 35px;
+    color: red;
+}
+
+p {
+    text-align: center;
+    font-size: 30px;
+}
+
+img {
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+    border: 3px solid #8a4444;
+}
+.menubottom {
+    display: block;
+    font-size: 40px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    width: 500px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 13px;
+    text-decoration: none;
+    border: solid 2px white;
+    transition: 0.3s;
+}
+
+.menubottom:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    scale: 1.1;
+
+    font-size: 90px;
+    padding: 1vh;
+
+    background-image: url(https://img.goodfon.com/wallpaper/big/3/53/naruto-shippuden-uzumaki-5273.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+.retonar {
+    display: block;
+    font-size: 40px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    width: 500px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 13px;
+    text-decoration: none;
+    border: solid 2px white;
+    transition: 0.3s;
+}
+
+.retonar:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    scale: 1.1;
+}
