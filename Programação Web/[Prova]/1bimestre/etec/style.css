@@ -1,0 +1,54 @@
+body {
+    background-color: aliceblue;
+    font-family: Montserrat Medium;
+    text-align: center;
+}
+
+h1 {
+    font-family: Montserrat;
+    font-size: 5vh;
+    margin: 30px;
+}
+
+h2 {
+    /* margin: 0; */
+    font-size: 2vh;
+    /* width: 600px; */
+    margin: auto;
+}
+
+hr {
+    width: 89%;
+}
+
+ul{
+    text-align: start;
+    margin-left: 40vw;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+a {
+    display: block;
+    font-family:Montserrat SemiBold ;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(39, 36, 36);
+    background-color: rgba(114, 110, 110, 0.479);
+    width: 300px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 13px;
+    text-decoration: none;
+    border: solid 2px white;
+    transition: 0.3s;
+}
+
+a:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(99, 98, 98);
+    scale: 1.1;
+}
