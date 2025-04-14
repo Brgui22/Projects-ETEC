@@ -13,6 +13,20 @@ h1 {
     margin: 10px;
 }
 
+.menu {
+    margin: 20px;
+    background-color: #111825;
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #e6ebef;
+    font-weight: 600;
+    font-family: montserrat;
+    transition: 1s;
+}
+
 #menu {
     border: solid 3px #111825;
     height: 6vh;
@@ -53,7 +67,7 @@ h2 {
 .herois {
     border: solid 3px #e6ebef;
     min-height: 100vh;
-    width: 50vw;
+    width: 80vw;
     display: block;
     margin: auto;
     margin-top: 20px;
@@ -101,6 +115,13 @@ h2 {
     border-radius: 25px;
     border: solid 3px #e6ebef;
 }
+.capa:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.753);
+}
+
 .avali {
     display: block;
     margin: 10px auto;
