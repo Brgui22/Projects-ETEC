@@ -1,0 +1,98 @@
+@font-face {
+    font-family: Tokyo;
+    src: url('../fonts/korosu.otf') format('truetype');
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../imagens/tokyo-fundo.jpg);
+    background-size: cover;
+    font-family: Tokyo;
+}
+
+/* ------------------ */
+/*      INICIO        */
+/* ------------------ */
+
+h1 {
+    text-align: center;
+    font-size: 9vh;
+    color: #FFDFCC;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+h2 {
+    text-align: center;
+    font-size: 5vh;
+    color: #FFF3DB;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+.container {
+    min-height: 30vh;
+    width: 70vw;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 2vh;
+    border: solid 2px #FFDFCC;
+    background-color: #ffdfcca9;
+    margin: 1vh auto;
+}
+
+/* ------------------ */
+/* DEFINIÇÕES COMIDAS */
+/* ------------------ */
+
+#gastronomia, #animais {
+    height: 30vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.imgs-comidas, .imgs-animais {
+    width: 14vw;
+    height: 21vh;
+    border: solid 2px rgb(54, 54, 54);
+    border-radius: 1.4vh;
+    transition: 0.5s;
+}
+
+.imgs-comidas:hover, .imgs-animais:hover {
+    border: solid 2px white;
+    border-radius: 2.7vh;
+    scale: 1.1;
+    transition: 0.5s;
+    margin: auto 10px;
+}
+
+/* ------------------ */
+/*  DEFINIÇÕES PONTOS */
+/* ------------------ */
+
+#ponto {
+    min-height: 100vh;
+}
+
+.imgs-pontos {
+    width: 40vw;
+    height: 50vh;
+    display: block;
+    margin: 10px auto;
+    border: solid 2px rgb(97, 97, 97);
+    border-radius: 1.4vh;
+    transition: 0.5s;
+}
+
+.imgs-pontos:hover {
+    border: solid 2px white;
+    border-radius: 2.7vh;
+    scale: 1.1;
+    transition: 0.5s;
+    margin: 20px auto;
+}

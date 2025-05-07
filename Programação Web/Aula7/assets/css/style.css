@@ -1,0 +1,101 @@
+@font-face {
+    font-family: 'font1';
+    src: url(../font/Montserrat-Medium.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'font2';
+    src: url(../font/Montserrat-SemiBold.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'font3';
+    src: url(../font/Montserrat-Regular.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'font4';
+    src: url(../font/Montserrat-Bold.ttf) format('truetype');
+}
+
+body {
+    font-family: 'font1';
+    background-image: url(https://png.pngtree.com/background/20250108/original/pngtree-money-betting-concept-illustrated-on-a-3d-soccer-ball-picture-image_13320442.jpg);
+    background-size: cover;
+    background-color: rgba(255, 250, 250, 0.829); /* Fallback background color */
+    background-blend-mode: overlay; /* Adjust opacity */
+}
+
+h1 {
+    text-align: center;
+    font-family: 'font4';
+}
+
+h2 {
+    text-align: center;
+    font-family: 'font2';
+    font-size: 2.5vh;
+}
+
+form fieldset {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: auto;
+    padding: 2vh;
+    border: 0.3vh solid rgb(140, 158, 140);
+    border-radius: 2vh;
+}
+
+input[type="submit"] {
+    background-color: rgb(18, 207, 18);
+    border: 0.3vh solid rgb(78, 95, 78);
+    border-radius: 5px;
+    color: white;
+    font-size: 1.6vh;
+    transition: all 0.3s ease;
+    font-family: 'font2';
+    padding: 0.5vh;
+}
+
+div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+input[type='radio'] {
+    accent-color: rgb(85, 21, 21);
+}
+
+input[type="submit"]:hover{
+    scale: 1.05;
+    background-color: rgb(18, 207, 18);
+    
+}
+
+input[type="text"] {
+    border: 0.3vh solid rgb(78, 95, 78);
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    padding: 0.5vh;
+    font-family: 'font2';
+}
+
+input {
+    border: 0.3vh solid rgb(78, 95, 78);
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    padding: 0.5vh;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.2vh;
+    color: rgb(18, 207, 18);
+    font-family: 'font3';
+}
+
+.import {
+    margin: 1vh 0 0;
+    color: red;
+    font-family: 'font4';
+}
