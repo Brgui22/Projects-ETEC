@@ -6,7 +6,7 @@ Algoritmo "graus_convert"
 // Data atual  : 17/03/2025
 Var
    // Seção de Declarações das variáveis
-   u: caracter
+      u: caracter
    t: real
    
    c: real
