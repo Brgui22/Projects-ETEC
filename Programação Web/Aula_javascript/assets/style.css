@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: aliceblue;
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(https://shadersmods.com/wp-content/uploads/2016/08/rre36s-shader-5.jpg);
+    background-size: cover;
+    color: aliceblue;
+}
+
+#bloco {
+    margin: auto;
+    width: 150px;
+    height: 150px;
+    border: 2px solid #000;
+    background-color: gray;
+}
+
+hr {
+    border: solid 1px #ffff;
+    width: 90%;
+    margin: 2vh auto;
+}
+
+h1 {
+    background-color:  rgba(219, 219, 219, 0.425);
+    height: 10vh;
+    padding-top: 2.5vh;
+}
+
+h2, h3{
+    margin: 1vh auto;
+}
+
+.bloco-btn {
+    height: 10vh;
+    width: 15vh;
+    border-radius: 2vh;
+    transition: all 0.2s ease-in-out;
+    margin: 0px 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.8vh;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.bloco-btn:hover {
+    scale: 1.1;
+    background-color: #afafaf21;
+    margin: 0px 12px;
+    color: aliceblue;
+}
+
+.bloco-btn:active {
+    scale: 0.9;
+    background-color: #afafaf21;
+    margin: 0px 8px;
+}
+
+.terra:hover {
+    background-image: url(https://pm1.aminoapps.com/6660/c543e243e54d1d816b982641c15f36335deb3e46_hq.jpg);
+}
+.areia:hover {
+    background-image: url(https://pbs.twimg.com/media/EvKIDopXAAEzR3U.jpg);
+    color: black;
+}
+.pedra:hover {
+    background-image: url(https://preview.redd.it/qpbnhdp90rq81.png?width=370&format=png&auto=webp&s=de98efae562a0daee5cd8b0f4473bf3096c505bb);
+}
+.lava:hover {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpc5hIzIKRomK0T05LA-Z9VmcyeYJ6By6mVQ&s);
+}

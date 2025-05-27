@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 9 - Seletores CSS</title>
+    <style>
+        h1 {
+            color: #9c27b0;;
+            text-align: center;
+            font-size: 1.1rem;
+            font-weight: 500; 
+        }
+        .textointerno {
+            background-color: lightgoldenrodyellow;
+            border: 2px solid orange;
+            padding: 10px;
+        }
+        </style>
+        <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <p style="color: rgb(0, 0, 0); font-weight: bold;">
+        este é um parágrafo com o estilo em line (Azul e negrito)
+    </p>
+    <h1>Titulo Principal da pagina</h1>
+    <p class="caixa-destaque ">
+        Este paragrafo tem estilo do css interno (Fundo amarelo, borda laranja)
+    </p>
+    
+    <hr>
+    
+    <div id="secao-externa">
+        <h2 class="caixa-destaque">Seção estilizada externamente</h2>
+        <p class="paragrafo-externo">Recebe estilo do css externo</p>
+    </div>
+    
+    <p class="">
+        Este paragrafo tem estilo do css externo (Fundo azul, texto branco)
+        paragrafo para testar prioridade da cascata
+    </p>
+
+    <h3>Esse e um H3 alterado o estilo!</h3>
+
+    <p style="font-family: 'Courier New', Courier, monospace;font-size: 22px; text-align: right;">Mais um paragrafo com estilos in line</p>
+
+    <a href="">CLIQUE NO LINK</a>
+</body>
+</html>
